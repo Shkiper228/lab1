@@ -15,27 +15,19 @@
 - вставлені рисунки (скріншоти екрана або фотографії виконаного завдання у зошиті);
 > якщо графічних файлів багато то краще помістити їх у окрему папку, наприклад у мене це папка `pictures`. Уважно дивіться коли вставляєте URL - файл має бути представленим як `raw`. 
 
-![alt text](https://github.com/BobasB/it_college/raw/main/reports/pictures/logo-lit.jpg "ІТ Коледж")
+![screenshots](https://github.com/Shkiper228/labs/blob/master/2_lw/screenshots/screen1.png?raw=true "IT")
+![screenshots](https://github.com/Shkiper228/labs/blob/master/2_lw/screenshots/screen2.png?raw=true )
+![screenshots](https://github.com/Shkiper228/labs/blob/master/2_lw/screenshots/screen3.png?raw=true "ІТ Коледж")
+![screenshots](https://github.com/Shkiper228/labs/blob/master/2_lw/screenshots/screen4.png?raw=true "ІТ Коледж")
+![screenshots](https://github.com/Shkiper228/labs/blob/master/2_lw/screenshots/screen5.png?raw=true "ІТ Коледж")
 
-- вставлений код / текстовий або числовий результат / інші результати:
-```python
-def simple_function_example():
-    pass
-```
-```text
-<< SOME text HERE >>
-```
-
-- результати виконання індивідуального завдання (якщо такі є);
 
 ### Висновок: 
 > у висновку потрібно відповісти на запитання:
-- :question: Що зроблено в роботі;
-- :question: Чи досягнуто мети роботи;
-- :question: Які нові знання отримано;
-- :question: Чи вдалось відповісти на всі питання задані в ході роботи;
-- :question: Чи вдалося виконати всі завдання;
-- :question: Чи виникли складності у виконанні завдання;
-- :question: Чи подобається такий формат здачі роботи (Feedback);
-- :question: Побажання для покращення (Suggestions);
+- Виконано усі наведені приклади завдань;
+- Мета роботи досягнена;
+- Деякі знання із тернарних розгалужень;
+- Вдалось відповісти на всі запитання;
+- Вдалось виконати всі завдання;
+- Складнощів практично не виникло;
 ---
