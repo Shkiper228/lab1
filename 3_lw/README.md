@@ -97,10 +97,10 @@ print(f"We are done. We create {me.total_names} names! ??? Why {MyName.total_nam
 
 ### Висновок: 
 > у висновку потрібно відповісти на запитання:
-- :male_sign:  В роботі зроблено :male_sign: letherclub :male_sign: із класом який представляє :male_sign: name, email and count symbols of name :male_sign:;
-- :male_sign:  Так, мета досягнута, ми спустились на :male_sign: two blocks down :male_sign: ;
-- :male_sign:  Я відновив свої :male_sign: skills:male_sign: ;
-- :male_sign:  Жодних не вирішених завдань, :male_sign: dungeon master :male_sign:, не залишилось ;
-- :male_sign:  :male_sign: sir :male_sign:, складнощів не виникло ;
-- :male_sign:  :male_sign: oh yes sir:male_sign: !;
+- :male_sign:  В роботі зроблено :male_sign: `letherclub` :male_sign: із класом який представляє :male_sign: `name, email and count symbols of name` :male_sign:;
+- :male_sign:  Так, мета досягнута, ми спустились на :male_sign: `two blocks down` :male_sign: ;
+- :male_sign:  Я відновив свої :male_sign: `skills` :male_sign: ;
+- :male_sign:  Жодних не вирішених завдань, :male_sign: `dungeon master` :male_sign:, не залишилось ;
+- :male_sign:  :male_sign: `sir` :male_sign:, складнощів не виникло ;
+- :male_sign:  :male_sign: `oh yes sir` :male_sign:!;
 ---
