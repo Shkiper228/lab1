@@ -21,92 +21,34 @@
 
 - Робота з Pipenv
     1. Виконав команди:
-    
-    1. Відповіді на запитання:
-        1) У конструкторі є умова, яка це забезпечує
-        2. Це можна зробити, передавши який-небудь параметр методу say_hello. Адже якщо не передавати йому нічого, то він використає значення на умовчуванням
-        2. Зробив метод, який підраховує кількість сиволів в імені:
+    ![alt text](https://github.com/Shkiper228/labs/blob/master/4_lw/screenshots/2022-10-13%2011%2005%2056.png?raw=true "pipenv install")
+    Команди:
+    ![alt text](https://github.com/Shkiper228/labs/blob/master/4_lw/screenshots/2022-10-12%2012%2024%2029.png?raw=true "pipenv commands")
+    1. Створив файл index.py і ввів код:
     ```python
-    def count_symbols_name(self):
-        return f"In yours name is {len(self.name)}"
+    import requests
+
+    response = requests.get('https://httpbin.org/')
+    for line in response.iter_lines():
+        print(line)
     ```
-    ![alt text](https://github.com/Shkiper228/labs/blob/master/3_lw/screenshots/2022-09-23%2012%2033%2023.png?raw=true "код")
+    1. Запустив через VS Code:
+    ![alt text](https://github.com/Shkiper228/labs/blob/master/4_lw/screenshots/2022-10-13%2011%2008%2005.png?raw=true "via VS Code run")
+    Запустив через pipenv:
+    ![alt text](https://github.com/Shkiper228/labs/blob/master/4_lw/screenshots/2022-10-13%2011%2011%2054.png?raw=true "via pipenv run")
+    Виникла помилка, адже в віртуальному середовищі не було встановлено requests
 
-    2. 
-- вставлені рисунки (скріншоти екрана або фотографії виконаного завдання у зошиті);
-> якщо графічних файлів багато то краще помістити їх у окрему папку, наприклад у мене це папка `pictures`. Уважно дивіться коли вставляєте URL - файл має бути представленим як `raw`. 
+- Робота зі змінними середовища
+    1. Створив файл .env і добавив там HELLO=VOLODYMYR
+    Запустив код:
 
-![alt text](https://github.com/Shkiper228/labs/blob/master/3_lw/screenshots/2022-09-23%2012%2032%2034.png?raw=true "ІТ Коледж")
-![alt text](https://github.com/Shkiper228/labs/blob/master/3_lw/screenshots/2022-09-23%2012%2015%2056.png?raw=true "ІТ Коледж")
-![alt text](https://github.com/Shkiper228/labs/blob/master/3_lw/screenshots/2022-09-23%2012%2013%2058.png?raw=true "ІТ Коледж")
+    ```python
+    import os
+    os.environ['HELLO']
+    ```
 
-- вставлений код / текстовий або числовий результат / інші результати:
-```python
-class MyName:
-    """Опис класу / Документація
-    """
-    total_names = 0 #Class Variable
-
-    def __init__(self, name=None) -> None:
-        self.name = name if name is not None else self.anonymous_user().name #Class attributes / Instance variables
-        MyName.total_names += 1 #modify class variable
-        self.my_id = self.total_names
-
-    @property
-    def whoami(self): 
-        """Class property
-        return: повертаємо імя 
-        """
-        return f"My name is {self.name}"
-    
-    @property
-    def my_email(self) -> str:
-        """Class property
-        return: повертаємо емейл
-        """
-        return self.create_email()
-    
-    def create_email(self) -> str:
-        """Instance method
-        """
-        return f"{self.name}@itcollege.lviv.ua"
-
-    @classmethod
-    def anonymous_user(cls):
-        """Classs method
-        """
-        return cls("Anonymous")
-    
-    @staticmethod
-    def say_hello(message="Hello to everyone!"):
-        """Static method
-        """
-        return f"You say: {message}"
-
-    def count_symbols_name(self):
-        return f"In yours name is {len(self.name)}"
-
-
-
-print("Let's Start!")
-
-names = ("Bohdan", "Marta", "Volodymyr", None)
-all_names = {name: MyName(name) for name in names}
-
-for name, me in all_names.items():
-    print(f"""{">*<"*20}
-This is object: {me} 
-This is object attribute: {me.name} / {me.my_id}
-This is {type(MyName.whoami)}: {me.whoami} / {me.my_email}
-This is {type(me.create_email)} call: {me.create_email()}
-This is {type(me.count_symbols_name)} call: {me.count_symbols_name()}
-This is static {type(MyName.say_hello)} with defaults: {me.say_hello()} 
-This is class variable {type(MyName.total_names)}: from class {MyName.total_names} / from object {me.total_names}
-{"<*>"*20}""")
-
-print(f"We are done. We create {me.total_names} names! ??? Why {MyName.total_names}?")
-```
-
+    Вийшло:
+    ![alt text](https://github.com/Shkiper228/labs/blob/master/4_lw/screenshots/2022-10-13%2011%2011%2054.png?raw=true "via pipenv run")
 
 - результати виконання індивідуального завдання (якщо такі є);
 
