@@ -48,7 +48,7 @@
     ```
 
     Вийшло:
-    ![alt text](https://github.com/Shkiper228/labs/blob/master/4_lw/screenshots/2022-10-13%2011%2011%2054.png?raw=true "via pipenv run")
+    ![alt text](https://github.com/Shkiper228/labs/blob/master/4_lw/screenshots/2022-10-13%2011%2032%2041.png?raw=true "via pipenv run")
 
 - результати виконання індивідуального завдання (якщо такі є);
 
