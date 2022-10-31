@@ -17,32 +17,34 @@
 
 ## Юніт тести
     1. Ввів наведений код
-    ![alt text](https://github.com/Shkiper228/labs/blob/master/7_lw/screenshots/2022-10-31%2021%2021%2004.png?raw=true "assert")
-    
-- вставлені рисунки (скріншоти екрана або фотографії виконаного завдання у зошиті);
-> якщо графічних файлів багато то краще помістити їх у окрему папку, наприклад у мене це папка `pictures`. Уважно дивіться коли вставляєте URL - файл має бути представленим як `raw`. 
+    ![alt text](https://github.com/Shkiper228/labs/blob/master/7_lw/screenshots/2022-10-31%2021%2046%2026.png?raw=true "assert")
+    1. Створимо юніт тести та спробуємо перевірити тестовий клас щоб все працювало правильно
+    ![alt text](https://github.com/Shkiper228/labs/blob/master/7_lw/screenshots/2022-10-31%2022%2008%2001.png?raw=true "assert")
 
-![alt text](https://github.com/BobasB/it_college/raw/main/reports/pictures/logo-lit.jpg "ІТ Коледж")
 
-- вставлений код / текстовий або числовий результат / інші результати:
+## Юніт тести з використання бібліотеки PyTest
+    1. Добавив до app.py простий тест:
+
 ```python
-def simple_function_example():
-    pass
+    def test_app_triangle():
+    """Test if we create triangle figure.
+    """
+    fig = "трикутник"
+    triangle = Figure(fig, 4)
+    assert triangle.type == fig, f"Фігура має бути {fig}"
 ```
-```text
-<< SOME text HERE >>
-```
+    1. Запускаємо тести за допомогою pytest
+    ![alt text](https://github.com/Shkiper228/labs/blob/master/7_lw/screenshots/2022-10-31%2022%2019%2005.png?raw=true "assert")
 
+    
 - результати виконання індивідуального завдання (якщо такі є);
 
 ### Висновок: 
 > у висновку потрібно відповісти на запитання:
-- :question: Що зроблено в роботі;
-- :question: Чи досягнуто мети роботи;
-- :question: Які нові знання отримано;
-- :question: Чи вдалось відповісти на всі питання задані в ході роботи;
-- :question: Чи вдалося виконати всі завдання;
-- :question: Чи виникли складності у виконанні завдання;
-- :question: Чи подобається такий формат здачі роботи (Feedback);
-- :question: Побажання для покращення (Suggestions);
+- :question: Все готово сер!;
+- :question: Мета досягнута сер!;
+- :question: Все засвоєно сер!;
+- :question: Жодного питання без відповіді сер!;
+- :question: Всі завдання виконані!;
+- :question: Жодних складнощів сер!;
 ---
