@@ -13,3 +13,15 @@ class Figure:
     @property
     def get_figure_length(self):
         return self.type # робимо помилку
+
+
+c = Figure("квадрат", 1)
+a = Figure("тетраед", 12)
+b = Figure("коло", "два ліктя")
+
+def test_app_triangle():
+    """Test if we create triangle figure.
+    """
+    fig = "трикутник"
+    triangle = Figure(fig, 4)
+    assert triangle.type == fig, f"Фігура має бути {fig}"
